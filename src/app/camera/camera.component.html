@@ -1,0 +1,7 @@
+<div class="container">
+    <p>aaaaaaaaaaaaaaaa!</p>
+    <textarea name="" id="" cols="30" rows="10">{{photoSrc}}</textarea>
+    <button (click)="uploadImage()">send</button>
+    <video #videoElement></video>
+    <img [src]="photoSrc" *ngIf="photoSrc" />
+</div>
